@@ -8,6 +8,7 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<meta property="og:thumbnail" content={favicon} />
 </svelte:head>
 
 <Navbar />
