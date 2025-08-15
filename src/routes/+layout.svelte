@@ -9,6 +9,10 @@
 <svelte:head>
 	<link rel="icon" href={favicon} />
 	<meta property="og:thumbnail" content={favicon} />
+	<meta property="og:title" content="btwarch.me" />
+	<meta property="og:description" content="Embrace the Arch Linux way" />
+	<meta property="og:url" content="https://btwarch.me" />
+	<meta property="og:type" content="website" />
 </svelte:head>
 
 <Navbar />
