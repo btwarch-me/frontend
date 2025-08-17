@@ -2,7 +2,7 @@
 	import { fuckwin } from '$lib';
 </script>
 
-<div class="flex min-h-[70vh] flex-col items-center justify-center">
+<div class="flex min-h-screen flex-col items-center justify-center">
 	<div
 		class="container mx-auto flex flex-col-reverse items-center gap-6 px-4 text-center md:flex-row"
 	>
