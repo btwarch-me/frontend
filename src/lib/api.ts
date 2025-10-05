@@ -32,7 +32,12 @@ export function goToAuth(): void {
 }
 
 export function logout(): void {
-    window.location.href = API_BASE + "/auth/logout";
+    fetch(API_BASE + "/auth/logout", {
+        method: "POST",
+        credentials: "include",
+    }).then(() => {
+        window.location.href = "/";
+    });
 }
 
 

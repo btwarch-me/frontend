@@ -19,7 +19,7 @@ export default function Home() {
             <div className="pt-4">
                 <Link
                     href="/claim"
-                    className="bg-blue-600 underline text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors inline-block"
+                    className="bg-blue-600 underline text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors inline-block cursor-pointer"
                 >
                     Claim Your Subdomain
                 </Link>
